@@ -30,9 +30,3 @@ Once you have modified the function, you need only run `python main.py` to test 
 
 OpenAI Gym [defines "solving"](https://gym.openai.com/envs/Taxi-v1/) this task as getting average return of 9.7 over 100 consecutive trials.
 
-
-
-### The workspace contains three files:
-#### agent.py: Develop your reinforcement learning agent here. This is the only file that you should modify.
-#### monitor.py: The interact function tests how well your agent learns from interaction with the environment.
-#### main.py: Run this file in the terminal to check the performance of your agent.
