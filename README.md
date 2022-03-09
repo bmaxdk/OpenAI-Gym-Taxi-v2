@@ -30,3 +30,7 @@ Once you have modified the function, you need only run `python main.py` to test 
 
 OpenAI Gym [defines "solving"](https://gym.openai.com/envs/Taxi-v1/) this task as getting average return of 9.7 over 100 consecutive trials.
 
+
+# Result
+python main.py 
+Episode 20000/20000 || Best average reward 9.0437
