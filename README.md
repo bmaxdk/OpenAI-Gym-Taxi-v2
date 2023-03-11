@@ -13,8 +13,8 @@ The repository contains three files:
 - `main.py`: Run this file in the terminal to check the performance of your agent.
 
 Begin by running the following command in the terminal:
-```
-python main.py
+```bash
+$ python main.py
 ```
 
 When you run `main.py`, the agent that you specify in `agent.py` interacts with the environment for 20,000 episodes.  The details of the interaction are specified in `monitor.py`, which returns two variables: `avg_rewards` and `best_avg_reward`.
@@ -47,10 +47,10 @@ The skeleton of this code is from [Udacity](https://github.com/udacity/deep-rein
 The environment is from [here](https://gym.openai.com/envs/Taxi-v3/).
 
 To do the simple demo, on Linux or Mac with Docker installed, make `taxi.sh` executable and run it:
-```
-git clone https://github.com/bmaxdk/OpenAI-Gym-Taxi-v2.git
-cd OpenAI-Gym-Taxi-v2
-python main.py
+```bash
+$ git clone https://github.com/bmaxdk/OpenAI-Gym-Taxi-v2.git
+$ cd OpenAI-Gym-Taxi-v2
+$ python main.py
 ```
 
 This version uses a variation on standard Q-learning.  The policy is epsilon-greedy, but when the non-greedy action is chosen, instead of being sampled from a uniform distribution, it is sampled from a distribution that reflects two things:
